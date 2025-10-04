@@ -120,3 +120,22 @@ select, button {
 .priority-select {
   background-color: #f0f0f0;
 }
+
+.task-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.task-input input, .task-input button {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.task-input button {
+  background-color: #6a4c93;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

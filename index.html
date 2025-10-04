@@ -19,112 +19,15 @@
   </header>
 
   <div class="container">
-    <!-- Task Column -->
-    <div class="task-column">
-
-      <div class="task-card">
-        <div class="task-title">Do CSI project</div>
-    
-    
-    
-        <div class="task-footer">
-          <select class="status-select">
-            <option>To Do</option>
-            <option>In Progress</option>
-            <option>Done</option>
-          </select>
-          <select class="priority-select">
-            <option>High</option>
-            <option>Medium</option>
-            <option>Low</option>
-          </select>
-          <button>Save</button>
-        </div>
-      </div>
-
-      <div class="task-card">
-        <div class="task-title">Solve 2 questions on codechef</div>
-      
-      
-      
-        <div class="task-footer">
-          <select class="status-select">
-            <option>To Do</option>
-            <option>In Progress</option>
-            <option>Done</option>
-          </select>
-          <select class="priority-select">
-            <option>High</option>
-            <option>Medium</option>
-            <option>Low</option>
-          </select>
-          <button>Save</button>
-        </div>
-      </div>
-
-      <div class="task-card">
-        <div class="task-title">Study for ST</div>
-        
-        
-        
-        <div class="task-footer">
-          <select class="status-select">
-            <option>To Do</option>
-            <option>In Progress</option>
-            <option>Done</option>
-          </select>
-          <select class="priority-select">
-            <option>High</option>
-            <option>Medium</option>
-            <option>Low</option>
-          </select>
-          <button>Save</button>
-        </div>
-      </div>
-
-      <div class="task-card">
-        <div class="task-title">Do COA Assignment</div>
-      
-      
-      
-        <div class="task-footer">
-          <select class="status-select">
-            <option>To Do</option>
-            <option>In Progress</option>
-            <option>Done</option>
-          </select>
-          <select class="priority-select">
-            <option>High</option>
-            <option>Medium</option>
-            <option>Low</option>
-          </select>
-          <button>Save</button>
-        </div>
-      </div>
-
-      <div class="task-card">
-        <div class="task-title">The Psychology of Money</div>
-        
-        
-        
-        <div class="task-footer">
-          <select class="status-select">
-            <option>To Do</option>
-            <option>In Progress</option>
-            <option>Done</option>
-          </select>
-          <select class="priority-select">
-            <option>High</option>
-            <option>Medium</option>
-            <option>Low</option>
-          </select>
-          <button>Save</button>
-        </div>
-      </div>
-
+    <div class="task-column">  
+    <div class="task-input">
+  <input type="text" id="taskName" placeholder="Task Name" />
+  <input type="number" id="taskDuration" placeholder="Duration (min)" />
+  <input type="datetime-local" id="taskDateTime" />
+  <button id="addTaskBtn">Add Task</button>
+</div>
     </div>
 
-    <!-- Do Now Column -->
     <div class="do-now">
       <h2>Do Now</h2>
       <div class="timer-controls">
@@ -135,6 +38,6 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="csi.js"></script>
 </body>
 </html>
